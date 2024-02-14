@@ -16,6 +16,5 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('Email:', email);
         console.log('Message:', message);
 
-        // You can add additional logic (e.g., sending data to a server) here
     });
 });
