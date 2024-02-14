@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ankit Srivastava - Portfolio</title>
-    <link rel="stylesheet" href="C:\Users\kkirti\Documents\GitHub\HTML-and-CSS-Projects\Project\ankit-srivas.github.io\styles.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/main.css">
 </head>
 <body>
 
@@ -13,37 +13,86 @@
         <p>Software and Web Developer</p>
     </header>
 
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <section id="about">
         <h2>About Me</h2>
-        <p>Welcome to my portfolio! I am a passionate software and web developer...</p>
+        <p>Welcome to my portfolio! I am a passionate web developer with a focus on creating interactive and user-friendly websites.</p>
+        <p>I have created quite a few projects mentioned under the Projects section during this course.</p>
+        <p>I have utilised various key concepts of HTML, CSS and JavaScript which I have learnt during this course.</p>
+        <p>I wish to apply the concepts learnt during this course in my professional work and enhance my skill set</p>
+    </section>
+
+    <header>
+        <h1>Key Concepts used</h1>
+    </header>
+    <!-- HTML Structure -->
+    <section>
+        <h1>HTML Structure</h1>
+        <p>The HTML file (<code>index.html</code>) defines the structure of the webpage. It uses HTML5 semantic elements like <code>&lt;header&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> to organize content.</p>
+    </section>
+
+    <!-- CSS Styling -->
+    <section>
+        <h1>CSS Styling</h1>
+        <p>The styling is managed using an external CSS file (<code>main.css</code>). It defines the visual appearance, layout, and colors of the elements on the page.</p>
+    </section>
+    <section>
+        <h1>JavaScript</h1>
+        <p>This script (<code>main.js</code>) listens for the form submission event and prevents the default form submission behavior. It then retrieves the values from the form fields (name, email, and message) and logs them to the console. You can customize this script based on your specific requirements and add more functionality as needed.</p>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
+        <!-- Add your projects here -->
         <div class="project">
-            <h3>Project 1</h3>
-            <p>Basic HTML form...</p>
+            <h3>Project1_expression_alerts</h3>
+            <p>Usage of Expression alerts</p>
         </div>
         <div class="project">
-            <h3>Project 2</h3>
-            <p>Portfolio Website...</p>
+            <h3>Project2_functions</h3>
+            <p>Usage of functions</p>
+        </div>
+        <div class="project">
+            <h3>Project3_math_operators</h3>
+            <p>Usage of Math Operators</p>
+        </div>
+        <div class="project">
+            <h3>Project4_dictionaries</h3>
+            <p>Usage of Dictionaries</p>
+        </div>
+        <div class="project">
+            <h3>Project5_comparisons_type_coercion</h3>
+            <p>Usage of Comparisons and Type Coercion</p>
         </div>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email: ascontinentalgt@gmail.com</p>
-        <p>LinkedIn: https://www.linkedin.com/in/ankitsrivastava0709/</p>
-        <p>GitHub: github.com/ankit-srivas</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Ankit Srivastava</p>
+        <p>&copy; 2024 Ankit Srivastava's Portfolio. All rights reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> 35060c238c23ee426593aa597c7bb0a1b6869de6
